@@ -1,0 +1,47 @@
+﻿<Properties StartupItem="GtkTest\GtkTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GtkTest\WorldText.cs">
+    <Files>
+      <File FileName="GtkTest\CircleRenderer.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\PolygonRenderer.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Renderer.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\MainWindow.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\FireDrop.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Fire.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\InGameButton.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Wall.cs" Line="44" Column="1" />
+      <File FileName="GtkTest\TextRenderer.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Player.cs" Line="21" Column="61" />
+      <File FileName="GtkTest\Camera.cs" Line="47" Column="8" />
+      <File FileName="GtkTest\Spike.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Checkpoint.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Rigidbody.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\SpikeSet.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Physics.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\GameObject.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Program.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Water.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Steam.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\SteamDrop.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\PoolManager.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\ConvexCollider.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Collider.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Goal.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Circle.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\WorldText.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Behaviour.cs" Line="34" Column="38" />
+      <File FileName="GtkTest\Buttons.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\CircleCollider.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\WaterDrop.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\EllipseCollider.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\EllipseRenderer.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\MyMath.cs" Line="1" Column="1" />
+      <File FileName="GtkTest\Transform.cs" Line="32" Column="4" />
+      <File FileName="GtkTest\Vector2.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

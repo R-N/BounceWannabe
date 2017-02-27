@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DD487080-D2D7-4898-9C4D-2D9B877A043B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GtkTest</RootNamespace>
+    <AssemblyName>GtkTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="Mono.Cairo, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="gtk-dotnet, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="gtk-gui\GtkTest.MainWindow.cs" />
+    <Compile Include="Renderer.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Behaviour.cs" />
+    <Compile Include="Transform.cs" />
+    <Compile Include="Vector2.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Buttons.cs" />
+    <Compile Include="Collider.cs" />
+    <Compile Include="CircleCollider.cs" />
+    <Compile Include="Physics.cs" />
+    <Compile Include="Rigidbody.cs" />
+    <Compile Include="Wall.cs" />
+    <Compile Include="CircleRenderer.cs" />
+    <Compile Include="EllipseCollider.cs" />
+    <Compile Include="ConvexCollider.cs" />
+    <Compile Include="PolygonRenderer.cs" />
+    <Compile Include="EllipseRenderer.cs" />
+    <Compile Include="MyMath.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="Water.cs" />
+    <Compile Include="WaterDrop.cs" />
+    <Compile Include="PoolManager.cs" />
+    <Compile Include="FireDrop.cs" />
+    <Compile Include="Fire.cs" />
+    <Compile Include="TextRenderer.cs" />
+    <Compile Include="Steam.cs" />
+    <Compile Include="SteamDrop.cs" />
+    <Compile Include="WorldText.cs" />
+    <Compile Include="Spike.cs" />
+    <Compile Include="SpikeSet.cs" />
+    <Compile Include="InGameButton.cs" />
+    <Compile Include="Checkpoint.cs" />
+    <Compile Include="Goal.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <EmbeddedResource Include="gtk-gui\gui.stetic">
+      <LogicalName>gui.stetic</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
